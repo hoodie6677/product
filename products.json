@@ -1,9 +1,8 @@
-
 {
     "store": {
         "name": "Yellow Boutique",
-        "version": "1.0.0",
-        "lastUpdated": "2026-03-28T13:22:00Z"
+        "version": "1.1.0",
+        "lastUpdated": "2026-03-28T13:32:00Z"
     },
     "categories": [
         "Streaming",
@@ -14,12 +13,8 @@
     "products": [
         {
             "id": 1,
-            "name": "Compte Premium - Netflix 1 Mois",
-            "slug": "netflix-premium-1-mois",
-            "price": 4.99,
-            "currency": "EUR",
-            "priceDisplay": "4.99€",
-            "rating": 4.8,
+            "name": "Compte Premium - Netflix",
+            "slug": "netflix-premium",
             "category": "Streaming",
             "image": "https://picsum.photos/seed/netflix/400/300",
             "gallery": [
@@ -34,6 +29,8 @@
                 "Téléchargement hors ligne",
                 "Support 24/7 inclus"
             ],
+            "rating": 4.8,
+            "reviewCount": 523,
             "stock": true,
             "badge": "Populaire",
             "tags": [
@@ -41,16 +38,49 @@
                 "streaming",
                 "4k",
                 "premium"
+            ],
+            "plans": [
+                {
+                    "id": "netflix-1w",
+                    "label": "1 Semaine",
+                    "duration": "1_week",
+                    "price": 1.99,
+                    "currency": "EUR",
+                    "priceDisplay": "1.99€"
+                },
+                {
+                    "id": "netflix-1m",
+                    "label": "1 Mois",
+                    "duration": "1_month",
+                    "price": 4.99,
+                    "currency": "EUR",
+                    "priceDisplay": "4.99€",
+                    "popular": true
+                },
+                {
+                    "id": "netflix-3m",
+                    "label": "3 Mois",
+                    "duration": "3_months",
+                    "price": 12.99,
+                    "currency": "EUR",
+                    "priceDisplay": "12.99€",
+                    "savings": "13%"
+                },
+                {
+                    "id": "netflix-lifetime",
+                    "label": "Lifetime",
+                    "duration": "lifetime",
+                    "price": 29.99,
+                    "currency": "EUR",
+                    "priceDisplay": "29.99€",
+                    "savings": "50%"
+                }
             ]
         },
         {
             "id": 2,
-            "name": "Compte Spotify Premium - 3 Mois",
-            "slug": "spotify-premium-3-mois",
-            "price": 8.99,
-            "currency": "EUR",
-            "priceDisplay": "8.99€",
-            "rating": 4.9,
+            "name": "Compte Spotify Premium",
+            "slug": "spotify-premium",
             "category": "Musique",
             "image": "https://picsum.photos/seed/spotify/400/300",
             "gallery": [
@@ -65,6 +95,8 @@
                 "Qualité audio très élevée",
                 "Zapping illimité"
             ],
+            "rating": 4.9,
+            "reviewCount": 891,
             "stock": true,
             "badge": "Best-seller",
             "tags": [
@@ -72,16 +104,49 @@
                 "musique",
                 "premium",
                 "sans-pub"
+            ],
+            "plans": [
+                {
+                    "id": "spotify-1w",
+                    "label": "1 Semaine",
+                    "duration": "1_week",
+                    "price": 1.49,
+                    "currency": "EUR",
+                    "priceDisplay": "1.49€"
+                },
+                {
+                    "id": "spotify-1m",
+                    "label": "1 Mois",
+                    "duration": "1_month",
+                    "price": 3.99,
+                    "currency": "EUR",
+                    "priceDisplay": "3.99€",
+                    "popular": true
+                },
+                {
+                    "id": "spotify-3m",
+                    "label": "3 Mois",
+                    "duration": "3_months",
+                    "price": 8.99,
+                    "currency": "EUR",
+                    "priceDisplay": "8.99€",
+                    "savings": "25%"
+                },
+                {
+                    "id": "spotify-lifetime",
+                    "label": "Lifetime",
+                    "duration": "lifetime",
+                    "price": 24.99,
+                    "currency": "EUR",
+                    "priceDisplay": "24.99€",
+                    "savings": "48%"
+                }
             ]
         },
         {
             "id": 3,
             "name": "Compte Valorant - Rang Diamant",
             "slug": "valorant-rang-diamant",
-            "price": 34.99,
-            "currency": "EUR",
-            "priceDisplay": "34.99€",
-            "rating": 4.7,
             "category": "Gaming",
             "image": "https://picsum.photos/seed/valorant/400/300",
             "gallery": [
@@ -96,6 +161,8 @@
                 "Changement d'email possible",
                 "Livraison instantanée"
             ],
+            "rating": 4.7,
+            "reviewCount": 312,
             "stock": true,
             "badge": null,
             "tags": [
@@ -103,16 +170,31 @@
                 "gaming",
                 "diamant",
                 "skins"
+            ],
+            "plans": [
+                {
+                    "id": "valorant-standard",
+                    "label": "Standard",
+                    "duration": "one_time",
+                    "price": 34.99,
+                    "currency": "EUR",
+                    "priceDisplay": "34.99€",
+                    "popular": true
+                },
+                {
+                    "id": "valorant-premium",
+                    "label": "Premium (+ skins rares)",
+                    "duration": "one_time",
+                    "price": 54.99,
+                    "currency": "EUR",
+                    "priceDisplay": "54.99€"
+                }
             ]
         },
         {
             "id": 4,
-            "name": "Compte ChatGPT Plus - 1 Mois",
-            "slug": "chatgpt-plus-1-mois",
-            "price": 12.99,
-            "currency": "EUR",
-            "priceDisplay": "12.99€",
-            "rating": 5.0,
+            "name": "Compte ChatGPT Plus",
+            "slug": "chatgpt-plus",
             "category": "IA",
             "image": "https://picsum.photos/seed/chatgpt/400/300",
             "gallery": [
@@ -127,6 +209,8 @@
                 "Temps de réponse plus rapide",
                 "Accès prioritaire"
             ],
+            "rating": 5.0,
+            "reviewCount": 1204,
             "stock": true,
             "badge": "Nouveau",
             "tags": [
@@ -134,16 +218,40 @@
                 "ia",
                 "gpt4",
                 "dalle"
+            ],
+            "plans": [
+                {
+                    "id": "chatgpt-1w",
+                    "label": "1 Semaine",
+                    "duration": "1_week",
+                    "price": 4.99,
+                    "currency": "EUR",
+                    "priceDisplay": "4.99€"
+                },
+                {
+                    "id": "chatgpt-1m",
+                    "label": "1 Mois",
+                    "duration": "1_month",
+                    "price": 12.99,
+                    "currency": "EUR",
+                    "priceDisplay": "12.99€",
+                    "popular": true
+                },
+                {
+                    "id": "chatgpt-lifetime",
+                    "label": "Lifetime",
+                    "duration": "lifetime",
+                    "price": 49.99,
+                    "currency": "EUR",
+                    "priceDisplay": "49.99€",
+                    "savings": "68%"
+                }
             ]
         },
         {
             "id": 5,
             "name": "Compte Crunchyroll Mega Fan",
             "slug": "crunchyroll-mega-fan",
-            "price": 3.99,
-            "currency": "EUR",
-            "priceDisplay": "3.99€",
-            "rating": 4.6,
             "category": "Streaming",
             "image": "https://picsum.photos/seed/anime/400/300",
             "gallery": [
@@ -158,6 +266,8 @@
                 "Mode hors ligne",
                 "4 écrans en simultané"
             ],
+            "rating": 4.6,
+            "reviewCount": 267,
             "stock": true,
             "badge": null,
             "tags": [
@@ -165,16 +275,40 @@
                 "anime",
                 "streaming",
                 "sans-pub"
+            ],
+            "plans": [
+                {
+                    "id": "crunchyroll-1w",
+                    "label": "1 Semaine",
+                    "duration": "1_week",
+                    "price": 0.99,
+                    "currency": "EUR",
+                    "priceDisplay": "0.99€"
+                },
+                {
+                    "id": "crunchyroll-1m",
+                    "label": "1 Mois",
+                    "duration": "1_month",
+                    "price": 3.99,
+                    "currency": "EUR",
+                    "priceDisplay": "3.99€",
+                    "popular": true
+                },
+                {
+                    "id": "crunchyroll-3m",
+                    "label": "3 Mois",
+                    "duration": "3_months",
+                    "price": 9.99,
+                    "currency": "EUR",
+                    "priceDisplay": "9.99€",
+                    "savings": "17%"
+                }
             ]
         },
         {
             "id": 6,
             "name": "Compte League of Legends - Smurf lvl 30",
             "slug": "lol-smurf-lvl-30",
-            "price": 9.99,
-            "currency": "EUR",
-            "priceDisplay": "9.99€",
-            "rating": 4.5,
             "category": "Gaming",
             "image": "https://picsum.photos/seed/lol/400/300",
             "gallery": [
@@ -189,6 +323,8 @@
                 "50 000+ Essences Bleues",
                 "Bannières et icônes aléatoires"
             ],
+            "rating": 4.5,
+            "reviewCount": 189,
             "stock": true,
             "badge": null,
             "tags": [
@@ -196,6 +332,25 @@
                 "league-of-legends",
                 "gaming",
                 "smurf"
+            ],
+            "plans": [
+                {
+                    "id": "lol-standard",
+                    "label": "Standard",
+                    "duration": "one_time",
+                    "price": 9.99,
+                    "currency": "EUR",
+                    "priceDisplay": "9.99€",
+                    "popular": true
+                },
+                {
+                    "id": "lol-premium",
+                    "label": "Premium (+ 100k BE)",
+                    "duration": "one_time",
+                    "price": 14.99,
+                    "currency": "EUR",
+                    "priceDisplay": "14.99€"
+                }
             ]
         }
     ]
