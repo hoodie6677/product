@@ -1,1 +1,202 @@
 
+{
+    "store": {
+        "name": "Yellow Boutique",
+        "version": "1.0.0",
+        "lastUpdated": "2026-03-28T13:22:00Z"
+    },
+    "categories": [
+        "Streaming",
+        "Musique",
+        "Gaming",
+        "IA"
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Compte Premium - Netflix 1 Mois",
+            "slug": "netflix-premium-1-mois",
+            "price": 4.99,
+            "currency": "EUR",
+            "priceDisplay": "4.99€",
+            "rating": 4.8,
+            "category": "Streaming",
+            "image": "https://picsum.photos/seed/netflix/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/netflix/400/300",
+                "https://picsum.photos/seed/netflix2/400/300"
+            ],
+            "description": "Profitez de Netflix en qualité 4K Ultra HD sur 4 écrans en simultané. Compte privé et sécurisé avec un accès complet à tout le catalogue.",
+            "shortDescription": "Compte Netflix 4K Ultra HD, 4 écrans",
+            "features": [
+                "Qualité 4K Ultra HD",
+                "4 écrans en simultané",
+                "Téléchargement hors ligne",
+                "Support 24/7 inclus"
+            ],
+            "stock": true,
+            "badge": "Populaire",
+            "tags": [
+                "netflix",
+                "streaming",
+                "4k",
+                "premium"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Compte Spotify Premium - 3 Mois",
+            "slug": "spotify-premium-3-mois",
+            "price": 8.99,
+            "currency": "EUR",
+            "priceDisplay": "8.99€",
+            "rating": 4.9,
+            "category": "Musique",
+            "image": "https://picsum.photos/seed/spotify/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/spotify/400/300",
+                "https://picsum.photos/seed/spotify2/400/300"
+            ],
+            "description": "Écoutez votre musique sans publicité, hors ligne et en haute qualité. Compte personnel avec possibilité de changer les identifiants.",
+            "shortDescription": "Spotify Premium sans pub, mode hors ligne",
+            "features": [
+                "Sans publicité",
+                "Mode hors ligne",
+                "Qualité audio très élevée",
+                "Zapping illimité"
+            ],
+            "stock": true,
+            "badge": "Best-seller",
+            "tags": [
+                "spotify",
+                "musique",
+                "premium",
+                "sans-pub"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Compte Valorant - Rang Diamant",
+            "slug": "valorant-rang-diamant",
+            "price": 34.99,
+            "currency": "EUR",
+            "priceDisplay": "34.99€",
+            "rating": 4.7,
+            "category": "Gaming",
+            "image": "https://picsum.photos/seed/valorant/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/valorant/400/300",
+                "https://picsum.photos/seed/valorant2/400/300"
+            ],
+            "description": "Compte Valorant classé Diamant avec plusieurs skins premium inclus. Prêt pour la compétition avec un bon MMR.",
+            "shortDescription": "Compte Valorant Diamant + skins premium",
+            "features": [
+                "Rang Diamant garanti",
+                "Skins premium inclus",
+                "Changement d'email possible",
+                "Livraison instantanée"
+            ],
+            "stock": true,
+            "badge": null,
+            "tags": [
+                "valorant",
+                "gaming",
+                "diamant",
+                "skins"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Compte ChatGPT Plus - 1 Mois",
+            "slug": "chatgpt-plus-1-mois",
+            "price": 12.99,
+            "currency": "EUR",
+            "priceDisplay": "12.99€",
+            "rating": 5.0,
+            "category": "IA",
+            "image": "https://picsum.photos/seed/chatgpt/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/chatgpt/400/300",
+                "https://picsum.photos/seed/chatgpt2/400/300"
+            ],
+            "description": "Accès prioritaire à ChatGPT Plus avec GPT-4, DALL-E 3 et l'analyse de données avancée. Boostez votre productivité.",
+            "shortDescription": "ChatGPT Plus avec GPT-4 et DALL-E 3",
+            "features": [
+                "Accès à GPT-4",
+                "Génération d'images DALL-E 3",
+                "Temps de réponse plus rapide",
+                "Accès prioritaire"
+            ],
+            "stock": true,
+            "badge": "Nouveau",
+            "tags": [
+                "chatgpt",
+                "ia",
+                "gpt4",
+                "dalle"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Compte Crunchyroll Mega Fan",
+            "slug": "crunchyroll-mega-fan",
+            "price": 3.99,
+            "currency": "EUR",
+            "priceDisplay": "3.99€",
+            "rating": 4.6,
+            "category": "Streaming",
+            "image": "https://picsum.photos/seed/anime/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/anime/400/300",
+                "https://picsum.photos/seed/anime2/400/300"
+            ],
+            "description": "Regardez vos animes préférés sans publicité et 1 heure après le Japon. Mode hors ligne inclus pour regarder partout.",
+            "shortDescription": "Crunchyroll Mega Fan, animes sans pub",
+            "features": [
+                "Sans publicité",
+                "Nouveaux épisodes 1h après",
+                "Mode hors ligne",
+                "4 écrans en simultané"
+            ],
+            "stock": true,
+            "badge": null,
+            "tags": [
+                "crunchyroll",
+                "anime",
+                "streaming",
+                "sans-pub"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Compte League of Legends - Smurf lvl 30",
+            "slug": "lol-smurf-lvl-30",
+            "price": 9.99,
+            "currency": "EUR",
+            "priceDisplay": "9.99€",
+            "rating": 4.5,
+            "category": "Gaming",
+            "image": "https://picsum.photos/seed/lol/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/lol/400/300",
+                "https://picsum.photos/seed/lol2/400/300"
+            ],
+            "description": "Compte League of Legends niveau 30, non classé (unranked), avec suffisamment d'Essences Bleues pour acheter vos champions.",
+            "shortDescription": "Compte LoL lvl 30, 50k+ Essences Bleues",
+            "features": [
+                "Niveau 30 garanti",
+                "Non classé (Unranked)",
+                "50 000+ Essences Bleues",
+                "Bannières et icônes aléatoires"
+            ],
+            "stock": true,
+            "badge": null,
+            "tags": [
+                "lol",
+                "league-of-legends",
+                "gaming",
+                "smurf"
+            ]
+        }
+    ]
+}
