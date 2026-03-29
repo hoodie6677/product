@@ -352,6 +352,45 @@
                     "priceDisplay": "14.99€"
                 }
             ]
+        },
+        {
+            "id": 99,
+            "name": "Produit de Test",
+            "slug": "produit-test",
+            "category": "Test",
+            "image": "https://picsum.photos/seed/test/400/300",
+            "gallery": [
+                "https://picsum.photos/seed/test/400/300",
+                "https://picsum.photos/seed/test2/400/300"
+            ],
+            "description": "Faux produit sécurisé pour simuler un achat et vérifier la bonne livraison de l'email automatique.",
+            "shortDescription": "Faux produit de test, n'achètez qu'en Test",
+            "features": [
+                "Simulation d'IPN",
+                "Test Auto-Delivery",
+                "Fausse livraison",
+                "Usage Développeur"
+            ],
+            "rating": 5.0,
+            "reviewCount": 42,
+            "stock": true,
+            "badge": "Test",
+            "tags": [
+                "test",
+                "dev"
+            ],
+            "plans": [
+                {
+                    "id": "test-standard",
+                    "code": "test-standard",
+                    "label": "Accès Test",
+                    "duration": "one_time",
+                    "price": 0.01,
+                    "currency": "EUR",
+                    "priceDisplay": "0.01€",
+                    "popular": true
+                }
+            ]
         }
     ]
 }
