@@ -1,0 +1,37 @@
+[
+  {
+    "id": "slide-1",
+    "title": "Aperçu de l'interface principale",
+    "image": "https://www.dropbox.com/scl/fi/787t2s64k53vorqlindv4/1.png?rlkey=oioxdto4h970ol83ur1t0if6n&st=nqiw8tfq&raw=1"
+  },
+  {
+    "id": "slide-2",
+    "title": "Pipeline audio & Filtres DSP",
+    "image": "https://www.dropbox.com/scl/fi/lz1s5o2w4161j9e3cddet/2.png?rlkey=0bs40fuit99seitemzk3o8x1k&st=n6400ehl&raw=1"
+  },
+  {
+    "id": "slide-3",
+    "title": "Module Égaliseur Paramétrique",
+    "image": "https://www.dropbox.com/scl/fi/gv88qrposwksfpfqqi9n7/3.png?rlkey=zyy7yp975i351762qfmlla7gl&st=bi1hq9n7&raw=1"
+  },
+  {
+    "id": "slide-4",
+    "title": "Paramètres d'appel & Réglages vocaux",
+    "image": "https://www.dropbox.com/scl/fi/3ewvnl93rm1amm695qibm/image.png?rlkey=te7duu60rqcyk6b5o3trx6dpq&st=gxbamyfq&raw=1"
+  },
+  {
+    "id": "slide-5",
+    "title": "Interface d'appel et de conversation",
+    "image": "https://www.dropbox.com/scl/fi/isj6ro99icdhtdoq0z6ga/images.png?rlkey=t7ib1lmfwqnodk3a2lmm7uggg&st=59romzqg&raw=1"
+  },
+  {
+    "id": "slide-6",
+    "title": "Panneau de personnalisation VST",
+    "image": "https://www.dropbox.com/scl/fi/pia85dlkdmolqo32gitpx/imagqsdsqdqse.png?rlkey=hunr1uf267jsgvqobszl0zv44&st=zfu5cdt5&raw=1"
+  },
+  {
+    "id": "slide-7",
+    "title": "Console de mixage & Contrôle audio",
+    "image": "https://www.dropbox.com/scl/fi/fguaijf83wg5nt7292tz7/imageddd.png?rlkey=yjatk7kqi97txsjdwi5zzqejk&st=ec3buy3q&raw=1"
+  }
+]
